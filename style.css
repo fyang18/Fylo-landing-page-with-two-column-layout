@@ -1,0 +1,799 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: 41%;
+    background-size: 1500px 114px;
+
+
+    color: hsl(243, 87%, 12%);
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*
+=======================================================
+                    HEADER MENU    
+=======================================================
+*/
+
+
+.innerNavContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.navMenu {
+    display: flex;
+}
+
+.navMenu a {
+    color: hsl(243, 87%, 12%);
+    text-decoration: none;
+}
+
+.navMenu a:nth-child(2){
+    margin: 0 57px 0;
+}
+.navMenu a:hover {
+    color: #6b7cc4;
+    transition: 0.8s;
+}
+
+/*
+=======================================================
+                        HEADER
+=======================================================
+*/
+
+header {
+    padding: 80px 80px 0;
+}
+
+.innerHeader {
+    align-items: center;
+    display: flex;
+    margin-top: 178px;
+}
+
+.innerHeader img{
+    height: auto;
+    max-width: 610px;
+}
+
+h2 {
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.innerHeader p{
+    margin-right: 88px;
+}
+
+.innerHeader .left {
+    margin-right: 60px;
+}
+
+.innerHeader .left p {
+    margin-top: 40px;
+}
+
+.innerHeader .left form {
+    margin-top: 30px;
+}
+
+
+.innerHeader .left input[type="email"] {
+    border-radius: 3px ;
+    border: 1px solid #666472;
+    margin-right: 16px;
+    height: 45px;
+    padding-left: 20px; 
+    width: 320px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.innerHeader .left input[type="submit"] {
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    height: 45px;
+    width: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.innerHeader .left input[type="submit"]:hover {
+    opacity: 0.7;
+    transition: 0.8s;
+}
+
+/*
+=======================================================
+                    Stay Productive
+=======================================================
+*/
+
+.stayProductive {
+    background-color: #f9f8fe;
+    margin-top: 350px;
+    padding: 80px 80px 0;
+    height: 715px;
+}
+
+.innerStayProductive {
+    align-items: center;
+    display: flex;
+}
+
+.innerStayProductive img{
+    height: auto;
+    max-width: 610px;
+}
+
+#p1{
+    margin-top: 55px;
+    margin-right: 112px;
+}
+
+#p2 {
+	margin: 30px 140px 30px 0;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+}
+
+.link a {
+    color: #98c1bd;
+    margin-right: 8px;
+}
+
+.link a:hover{
+    color: #3b9684;
+    transition: 0.8s;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    height: 216px;
+    margin-top: 55px;
+    padding: 25px 34px;
+    width: 356px;
+}
+
+#quotes {
+    height: 12px;
+    margin-bottom: 19px;
+    width: 13px;
+}
+
+.testimonial {
+    align-items: center;
+    display: flex;
+    margin-top: 22px;
+}
+
+.testimonial .name {
+    font-weight: bold;
+}
+.testimonial img {
+    border-radius: 50%;
+    height: 32px;
+    margin-right: 9px;
+    width: 32px;
+}
+
+/*
+=======================================================
+                    Get Ready
+=======================================================
+*/
+
+.getReady {
+    background-color: #575989;
+    color: #ffffff;
+    padding: 0px 80px 0;
+    height: 322px;
+}
+
+
+.innerGetReady {
+    align-items: center;
+    display: flex;
+}
+
+.innerGetReady .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 322px;
+    width: 50%;
+}
+
+.innerGetReady .right form{
+    display: flex;
+    flex-direction: column;
+}
+
+.innerGetReady .left {
+    width: 50%;
+}
+
+.innerGetReady .left h3{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+.innerGetReady .left p{
+    margin-top: 38px;
+    padding-right: 136px;
+}
+
+.innerGetReady .right input[type="email"] {
+    border: none;
+    border-radius: 3px ;
+    height: 45px;
+    margin-bottom: 16px;
+    padding-left: 20px; 
+    width: 480px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.innerGetReady .right input[type="submit"] {
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    height: 45px;
+    width: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.innerGetReady .right input[type="submit"]:hover {
+    opacity: 0.7;
+    transition: 0.8s;
+}
+
+
+/*
+=======================================================
+                        Footer
+=======================================================
+*/
+
+footer {
+    background-color: #07043b;
+    padding: 0px 80px 80px;
+    height: 455px;
+}
+
+.innerFooterHeader img {
+    filter: brightness(0) invert(1);
+    margin-top: 110px;
+}
+
+.innerFooter {
+    height: 455px;
+
+}
+
+.container {
+    display: flex;
+    margin-top: 45px;
+}
+
+.container a {
+    color: #fbfcff;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #6b7cc4;
+    transition: 0.8s;
+}
+
+.about, .contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.about a:nth-child(1), .about a:nth-child(2), .about a:nth-child(3) {
+    margin-bottom: 26px;
+}
+
+.contact a:nth-child(1), .contact a:nth-child(2), .contact a:nth-child(3) {
+    margin-bottom: 26px;
+}
+
+.phone img, .mail img {
+    margin-right: 20px;
+}
+
+.phoneMail {
+    margin-right: 223px;
+}
+
+
+
+.mail {
+    margin-top: 30px;
+}
+
+.about {
+    margin-right: 203px;
+}
+
+.contact{
+    margin-right: 186px;
+}
+
+.socialMedia a .fab{
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    border : 1px solid #ffffff;
+    padding-top: 7px;
+    padding-left: 9px;
+}
+
+.socialMedia a .fab:hover {
+    border-color: #6b7cc4;
+    transition: 0.8s;
+}
+
+.socialMedia a:nth-child(2) {
+    margin: 0 13px 0;
+}
+
+
+
+/*
+============================================================================================================================
+                                                     Media queries
+============================================================================================================================
+*/
+
+
+/*************************************************** Tablet layout **********************************/
+
+@media screen and (min-width:750px) and (max-width: 1373px){
+
+    body {
+        background-position-y: 31%;
+        background-size: 768px 114px;
+    }
+
+    header {
+        padding: 50px 50px 0;
+    }
+
+    .innerHeader {
+        margin-top: 212px;
+        flex-direction: column-reverse;
+    }
+
+    .innerHeader .left {
+        margin: 0;
+        margin-top: 108px;
+        text-align: center;
+    }
+
+    .innerHeader h2 {
+        font-size: 45px;
+        font-family: 'Open sans', sans-serif;
+        font-weight: 700;
+    }
+
+    .innerHeader .left p {
+        margin: 0;
+        margin-top: 80px;
+        font-size: 30px;
+    }
+
+    .innerHeader .left form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 74px;
+    }
+
+    .innerHeader .left input[type="email"] {
+        margin-right: 0;
+        margin-bottom: 32px;
+        height: 80px;
+        width: 608px;
+    }
+
+    .innerHeader .left input[type="submit"] {
+        height: 80px;
+        width: 608px;
+    }
+
+    .stayProductive {
+        height: 1786px;
+        padding: 0px 50px;
+    }
+
+    .innerStayProductive {
+        flex-direction: column-reverse;
+    }
+
+    .innerStayProductive .left {
+        margin-top: 193px;
+    }
+
+    .innerStayProductive h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #p1 {
+        margin-top: 77px;
+        margin-right: 0;
+        font-size: 28px;
+    }
+
+    #p2 {
+        margin-top: 60px;
+        margin-right: 0;
+        margin-bottom: 95px;
+        font-size: 28px;
+    }
+
+    .link {
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    .link img {
+        height: 23px;
+        width: 23px;
+    }
+
+    .card {
+        font-size: 22px;
+        height: 338px;
+        margin: 100px auto;
+        padding: 40px 53px;
+        width: 560px;
+    }
+
+    .getReady {
+        padding: 125px 50px;
+        height: 733px;
+    }
+
+    .innerGetReady {
+        flex-direction: column;
+    }
+    .innerGetReady .left {
+        text-align: center;
+        width: 100%;
+    }
+
+    .innerGetReady .left h3{
+        font-size: 34px;
+    }
+
+
+    .innerGetReady .left p {
+        font-size: 32px;
+        margin-top: 58px;
+        padding-right: 0;
+    }
+
+    .innerGetReady .right {
+        height: 335px;
+        width: 100%;
+    }
+
+    .innerGetReady .right input[type="email"] {
+        height: 64px;
+    }
+
+    .innerGetReady .right input[type="submit"] {
+        height: 64px;
+        width: 480px;
+    }
+
+    footer {
+        padding: 130px 80px;
+        height: 1438px;
+    }
+
+    .innerFooterHeader img {
+        margin-top: 0;
+    }
+
+    .container {
+        margin-top: 124px;
+        flex-direction: column;
+    }
+
+    .phone img, .mail img {
+        font-size: 25px;
+        height: 32px;
+        width: 40px;
+    }
+
+    .phone a, .mail a {
+        font-size: 25px;
+    }
+
+    .phoneMail {
+        margin-right: 0;
+    }
+
+    .mail {
+        margin-top: 63px;
+    }
+
+    .about {
+        margin-right: 0px;
+        margin-top: 137px;
+    }
+
+    .about a:nth-child(1), .about a:nth-child(2), .about a:nth-child(3) {
+        margin-bottom: 60px;
+    }
+
+    .contact {
+        margin-right: 0;
+        margin-top: 124px;
+    }
+
+    .contact a:nth-child(1), .contact a:nth-child(2), .contact a:nth-child(3) {
+        margin-bottom: 60px;
+    }
+
+    .socialMedia {
+        margin: 52px auto;
+    }
+
+    .socialMedia a:nth-child(2) {
+        margin: 0 22px 0;
+    }
+}
+
+
+/*************************************************** Mobile layout **********************************/
+
+@media screen and (min-width:300px) and (max-width: 749px){
+    body {
+        background-position-y: 28%;
+        background-size: 375px 114px;
+    }
+
+    header {
+        padding: 30px 20px 0;
+    }
+
+    .innerNavContainer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navMenu {
+        margin: 40px auto;
+    }
+
+    .innerHeader img {
+        height: auto;
+        max-width: 320px;
+    }
+
+    .innerHeader {
+        margin-top: 50px;
+        flex-direction: column-reverse;
+    }
+
+    .innerHeader .left {
+        margin: 0;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+    .innerHeader h2 {
+        font-size: 22px;
+        font-family: 'Open sans', sans-serif;
+        font-weight: 700;
+    }
+
+    .innerHeader .left p {
+        margin: 0;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+
+    .innerHeader .left form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+    .innerHeader .left input[type="email"] {
+        margin-right: 0;
+        margin-bottom: 32px;
+        height: 40px;
+        width: 304px;
+    }
+
+    .innerHeader .left input[type="submit"] {
+        height: 40px;
+        width: 304px;
+    }
+
+    .stayProductive {
+        height: 1100px;
+        margin:0;
+        margin-top: 150px;
+        padding: 0px 20px;
+    }
+
+    .innerStayProductive {
+        flex-direction: column-reverse;
+    }
+
+    .innerStayProductive .left {
+        margin-top: 100px;
+    }
+
+    .innerStayProductive h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+
+    .innerStayProductive img {
+        height: auto;
+        max-width: 320px;
+    }
+
+    #p1 {
+        margin-top: 32px;
+        margin-right: 0;
+        font-size: 15px;
+    }
+
+    #p2 {
+        margin-top: 32px;
+        margin-right: 0;
+        margin-bottom: 45px;
+        font-size: 15px;
+    }
+
+    .link {
+        justify-content: center;
+        font-size: 20px;
+    }
+
+    .link img {
+        height: 18px;
+        width: 18px;
+    }
+
+    .card {
+        font-size: 13px;
+        height: 228px;
+        margin: 100px auto;
+        padding: 20px 23px;
+        width: 320px;
+    }
+
+    .getReady {
+        padding: 125px 20px;
+        height: 600px;
+    }
+
+    .innerGetReady {
+        flex-direction: column;
+    }
+    .innerGetReady .left {
+        text-align: center;
+        width: 100%;
+    }
+
+    .innerGetReady .left h3{
+        font-size: 22px;
+    }
+
+
+    .innerGetReady .left p {
+        font-size: 15px;
+        margin-top: 58px;
+        padding-right: 0;
+    }
+
+    .innerGetReady .right {
+        height: 335px;
+        width: 100%;
+    }
+
+    .innerGetReady .right input[type="email"] {
+        height: 40px;
+        width: 304px;
+
+    }
+
+    .innerGetReady .right input[type="submit"] {
+        height: 40px;
+        width: 304px;
+    }
+
+    footer {
+        padding: 30px 20px;
+        height: 800px;
+    }
+
+    .innerFooterHeader img {
+        margin-top: 0;
+    }
+
+    .container {
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .phone img, .mail img {
+        height: 18px;
+        width: 22px;
+    }
+
+    .phone a, .mail a {
+        font-size: 15px;
+    }
+
+    .phoneMail {
+        margin-right: 0;
+    }
+
+    .mail {
+        margin-top: 30px;
+    }
+
+    .about {
+        margin-right: 0px;
+        margin-top: 30px;
+    }
+
+    .about a:nth-child(1), .about a:nth-child(2), .about a:nth-child(3) {
+        margin-bottom: 30px;
+    }
+
+    .contact {
+        margin-right: 0;
+        margin-top: 60px;
+    }
+
+    .contact a:nth-child(1), .contact a:nth-child(2), .contact a:nth-child(3) {
+        margin-bottom: 30px;
+    }
+
+    .socialMedia {
+        margin: 52px auto;
+    }
+
+    .socialMedia a:nth-child(2) {
+        margin: 0 22px 0;
+    }
+}
